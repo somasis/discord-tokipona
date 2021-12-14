@@ -341,7 +341,7 @@
     "JUMP": "o tawa",
     "JUMP_TO_CHANNEL": "o tawa tomo",
     "JUMP_TO_MESSAGE": "o tawa toki",
-    "JUMP_TO_PRESENT": "o tawa tenpo ni",
+    "JUMP_TO_PRESENT": "o tawa tenpo lon",
     "JUMP_TO_REPLY": "o tawa toki",
     "KEYBINDS": "pali pi ilo nena",
     "KEYBIND_DESCRIPTION_MODAL_SEARCH": "o alasa...",

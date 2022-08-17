@@ -2,6 +2,7 @@
 
 :lang:              en-US
 :url-replugged:     https://github.com/replugged-org/replugged
+:url-install:       https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
 :url-datamining:    https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
 :url-sil:           https://iso639-3.sil.org/request/2021-043
 :url-mapali:        https://discord.gg/PrVVDEDanU
@@ -16,6 +17,13 @@ The strings in `mama_pi_ante_toki.json` should be consistent in meaning with the
 translation; they will only be updated only when the translations are updated to match them.
 
 == Usage
+
+=== Installing automatically
+
+Replugged recently got the ability to install plugins from links.
+Use {url-install}[this link] to install the plugin automatically.
+
+=== Installing manually
 
 Clone this repository into your Replugged plugins directory.
 

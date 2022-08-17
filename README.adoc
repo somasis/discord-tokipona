@@ -2,6 +2,7 @@
 
 :lang:              tok
 :url-replugged:     https://github.com/replugged-org/replugged
+:url-install:       https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
 :url-datamining:    https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
 :url-sil:           https://iso639-3.sil.org/request/2021-043
 :url-mapali:        https://discord.gg/PrVVDEDanU
@@ -18,6 +19,13 @@ nimi lon lipu `mama_pi_ante_toki.json` li wile kama sama kon pi ante toki ni;
 ante toki li kama jo e toki sin la, mi kama e sin tan toki mama tawa lipu `mama_pi_ante_toki.json`.
 
 == kepeken
+
+=== nasin sin
+
+sina jo e ilo Wipo lon ilo ni la, o luka e {url-install}[linja ni].
+ilo Wipo li ken kama jo e sin ilo ni tan kepeken ni.
+
+=== nasin kepeken ilo ala
 
 o pana e ni tawa poki ilo pi ilo Wipo. (kepeken toki ilo `git clone` lon ilo anu nasin sama)
 

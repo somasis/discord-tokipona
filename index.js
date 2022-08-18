@@ -14,19 +14,18 @@ const timestamps = require("./i18n/timestamps.json");
 module.exports = class TokiPona extends Plugin {
     constructor() {
         super();
+        this.loaded = false;
     }
+
     async startPlugin() {
-        powercord.api.i18n.loadAllStrings(lang);
-        // dumb hack for things that don't load properly with loadAllStrings
-        for (const [key, value] of Object.entries(i18n.Messages)) {
-            if (typeof i18n.Messages[key] == "string") {
-                i18n.Messages[key] = lang["en-US"][key];
-            }
-        }
+        this.loadStrings(lang);
 
         const timestampModule = await getModule(
             (m) => m.default?.displayName === "MessageTimestamp"
         );
+
+        var locale = await getModule(['updateLocaleLoadingStatus'], true);
+
         inject(
             "translate-timestamp",
             timestampModule,
@@ -36,9 +35,30 @@ module.exports = class TokiPona extends Plugin {
                     args[0].timestamp._locale,
                     timestamps
                 );
+
+                if (!this.loaded) {
+                    i18n._provider.refresh([{"locale": i18n.getLocale()}])
+                    locale.updateLocaleLoadingStatus(i18n.getLocale(), false);
+                    this.loaded = true;
+                }
                 return res;
             }
         );
+    }
+
+    loadStrings (lang) {
+        const i18nContextProvider = i18n._provider?._context || i18n._proxyContext;
+        let { messages, defaultMessages } = i18nContextProvider;
+
+        Object.defineProperty(i18nContextProvider, 'messages', {
+          enumerable: true,
+          get: () => messages,
+          set: (v) => {
+            messages = Object.assign(v, lang["en-US"]);
+          }
+        });
+
+        i18nContextProvider.messages = messages;
     }
 
     pluginWillUnload() {

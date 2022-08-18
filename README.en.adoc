@@ -86,8 +86,6 @@ apply, since this plugin overrides them.
 * Names of connections. (ex. Battle.net, Facebook, GitHub)
   Usually, these names can't be changed by this plugin's translation method;
   most occurences are not in the `en-US` strings.
-* Replugged's settings.
-  It's probably not difficult to do but I've just not bothered to look into how to do that yet.
 
 == Known issues
 

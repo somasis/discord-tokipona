@@ -12,9 +12,11 @@
 set -e
 
 url="https://raw.githubusercontent.com/Discord-Datamining/Discord-Datamining/master/current.js"
+url_replugged="https://raw.githubusercontent.com/replugged-org/replugged/main/i18n/en-US.json"
 [ "$#" -gt 0 ] || set -- toki_mama_ale.json
 
 mama=$(mktemp)
+mama_replugged=$(mktemp)
 taso=$(mktemp)
 pona=$(mktemp)
 
@@ -24,6 +26,7 @@ PS3=
 set -x
 
 curl -Lf# -o "${mama}" "${url}"
+curl -Lf# -o "${mama_replugged}" "${url_replugged}"
 
 sed "s/^\s*//" "${mama}" \
     | grep -E \
@@ -52,7 +55,7 @@ sed "s/^\s*//" "${mama}" \
         -e '1 { s/^/{/ }; $ { s/,$//; s/$/}/ }' \
         >"${taso}"
 
-jq --indent 4 -S . <"${taso}" >"${pona}"
+jq --indent 4 -S -s 'add' "${taso}" "${mama_replugged}" >"${pona}"
 
 mv "${pona}" "$1"
 rm -f "${mama}" "${taso}"

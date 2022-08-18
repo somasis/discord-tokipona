@@ -31,7 +31,7 @@ sed \
     <"${nimi_taso}" \
     >"${taso}"
 
-jq --indent 4 -S <"${taso}" >"${pona}"
+jq --indent 2 -S <"${taso}" >"${pona}"
 
 mv "${pona}" "$1"
 rm -f "${nimi_taso}" "${taso}"

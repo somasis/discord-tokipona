@@ -55,7 +55,7 @@ sed "s/^\s*//" "${mama}" \
         -e '1 { s/^/{/ }; $ { s/,$//; s/$/}/ }' \
         >"${taso}"
 
-jq --indent 4 -S -s 'add' "${taso}" "${mama_replugged}" >"${pona}"
+jq --indent 2 -S -s 'add' "${taso}" "${mama_replugged}" >"${pona}"
 
 mv "${pona}" "$1"
 rm -f "${mama}" "${taso}"

@@ -497,7 +497,7 @@
   "GUILD_EVENTS_LIST_ACTION_SHEET_HEADER": "{count, plural, one {1 Event} other {{count} Events}}",
   "GUILD_EVENTS_PLURAL": "{number, plural, =1 {# Event} other {# Events}}",
   "GUILD_EVENT_ADD_IMAGE": "Upload Cover Image",
-  "GUILD_EVENT_ADD_IMAGE_SUGGESTION": "We recommend an image that’s at least 800px wide and 400px tall.",
+  "GUILD_EVENT_ADD_IMAGE_SUGGESTION": "We recommend an image that’s at least 800px wide and 320px tall.",
   "GUILD_EVENT_CHANGE_IMAGE": "Change Image",
   "GUILD_EVENT_CREATED_BY": "Created by {username}",
   "GUILD_EVENT_CREATED_BY_HOOK": "Created by $[](usernameHook)",

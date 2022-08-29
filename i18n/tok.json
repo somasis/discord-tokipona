@@ -499,7 +499,7 @@
   "GUILD_EVENTS_LIST_ACTION_SHEET_HEADER": "tenpo kulupu {count, plural, =0 {ala} =1 {wan} =2 {tu} =3 {tu wan} =4 {tu tu} =5 {luka} =6 {luka wan} =7 {luka tu} =8 {luka tu wan} =9 {luka tu tu} =10 {luka luka} other {{count}}}",
   "GUILD_EVENTS_PLURAL": "tenpo kulupu {number, plural, =0 {ala} =1 {wan} =2 {tu} =3 {tu wan} =4 {tu tu} =5 {luka} =6 {luka wan} =7 {luka tu} =8 {luka tu wan} =9 {luka tu tu} =10 {luka luka} other {#}}",
   "GUILD_EVENT_ADD_IMAGE": "o pana e len tenpo",
-  "GUILD_EVENT_ADD_IMAGE_SUGGESTION": "mi wile len la len li wile mute 800x400 anu mute suli.",
+  "GUILD_EVENT_ADD_IMAGE_SUGGESTION": "mi wile len la len li wile mute 800x320 anu mute suli.",
   "GUILD_EVENT_CHANGE_IMAGE": "o ante e len",
   "GUILD_EVENT_CREATED_BY": "mama li {username}",
   "GUILD_EVENT_CREATED_BY_HOOK": "mama li $[](usernameHook)",

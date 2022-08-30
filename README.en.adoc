@@ -51,11 +51,8 @@ apply, since this plugin overrides them.
 * Notifications are "kama toki".
   They are things that bring about knowledge of message-arrivals to you.
 * Number representation.
-  This translation uses words for numbers 0 through 10, and any larger simply displaying
+  This translation uses words for numbers 0 through 2, and any larger simply displaying
   numeric amounts.
-  The number system used tries to be very neutral: pu extended.
-  ala (0), wan (1), tu (2), tu wan (3), tu tu (4), luka (5), luka wan (6), luka tu (7),
-  luka tu wan (8), luka tu tu (9), luka luka (10).
     ** Time representation is a different story.
        As of now, to keep the specific times and avoid obscuring information the client is giving
        to the user, for seconds, minutes, and hours, tenpo ilo lili, tenpo ilo, and tenpo ilo suli

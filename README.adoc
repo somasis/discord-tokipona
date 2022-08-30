@@ -53,15 +53,12 @@ ni li tan ni: namako ni li ante e toki pi kon ni.
   tan ni la, mi pana e nimi "toki wile" tawa toki ni.
 * nimi "Notifications" (lon toki Inli) li nimi "kama toki".
   ona li ijo ni: kama toki li kama e sona pi kama toki tawa sina.
-* nanpa lukin.
-  toki ante ni li kepeken nimi tawa nanpa poka 0 tawa 10.
-  nanpa ante ale li nanpa lukin (nasin nanpa Alapi).
-  nasin nanpa lon li lukin nasin pi nasa ala: pu namako (nimi "pu extended" lon toki Inli).
-  ala (0), wan (1), tu (2), tu wan (3), tu tu (4), luka (5), luka wan (6), luka tu (7),
-  luka tu wan (8), luka tu tu (9), luka luka (10).
+* nasin nanpa.
+  ante toki ni li kepeken nimi tawa nanpa 0 tawa 2.
+  nanpa ale ante li kepeken nanpa taso (nasin nanpa Alapi).
     ** tenpo lukin li ante.
        mi wile awen e tenpo nanpa e sona tan ilo Siko.
-       tan ni la, toki mi li kepeken lon toki Inli e nimi "seconds" e nimi "minutes" e nimi "hours".
+       toki mi li kepeken nimi "seconds", kepeken nimi "minutes", kepeken nimi "hours", lon toki Inli.
        nimi ni lon toki pona li tenpo ilo lili, li tenpo ilo, li tenpo ilo suli.
        nasin ni la jan kepeken li wile ala sona e nasin tenpo sin.
        nasin ni la kama sona pi toki ni li pona.

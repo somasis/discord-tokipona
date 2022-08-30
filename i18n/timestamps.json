@@ -1,98 +1,98 @@
 {
-    "_calendar": {
-        "sameDay": "[tenpo suno ni la tenpo] LT",
-        "nextDay": "[[tenpo suno kama la tenpo] LT] LT",
-        "nextWeek": "[tenpo] dddd [kama la tenpo] LT",
-        "lastDay": "[tenpo suno pini la tenpo] LT",
-        "lastWeek": "[tenpo] dddd [pini la] LT",
-        "sameElse": "[tenpo] L"
-    },
-    "_longDateFormat": {
-        "LTS": "HH:mm:ss",
-        "LT": "HH:mm",
-        "L": "DD/MM/YYYY",
-        "LL": "D MMMM YYYY",
-        "LLL": "D MMMM YYYY HH:mm",
-        "LLLL": "dddd, D MMMM YYYY HH:mm"
-    },
-    "_invalidDate": "tenpo nasin ike",
-    "_dayOfMonthOrdinalParse": {},
-    "_relativeTime": {
-        "future": "in %s",
-        "past": "%s ago",
-        "s": "tenpo lili",
-        "ss": "%d seconds",
-        "m": "a minute",
-        "mm": "%d minutes",
-        "h": "an hour",
-        "hh": "%d hours",
-        "d": "a day",
-        "dd": "%d days",
-        "M": "a month",
-        "MM": "%d months",
-        "y": "a year",
-        "yy": "%d years"
-    },
-    "_months": [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ],
-    "_monthsShort": [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-    ],
-    "_week": {
-        "dow": 1,
-        "doy": 4
-    },
-    "_weekdays": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-    ],
-    "_weekdaysMin": [
-        "Su",
-        "Mo",
-        "Tu",
-        "We",
-        "Th",
-        "Fr",
-        "Sa"
-    ],
-    "_weekdaysShort": [
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu",
-        "Fri",
-        "Sat"
-    ],
-    "_meridiemParse": {},
-    "_abbr": "tok",
-    "_dayOfMonthOrdinalParseLenient": {}
+  "_abbr": "tok",
+  "_calendar": {
+    "lastDay": "[tenpo suno pini la tenpo] LT",
+    "lastWeek": "[tenpo] dddd [pini la] LT",
+    "nextDay": "[[tenpo suno kama la tenpo] LT] LT",
+    "nextWeek": "[tenpo] dddd [kama la tenpo] LT",
+    "sameDay": "[tenpo suno ni la tenpo] LT",
+    "sameElse": "[tenpo] L"
+  },
+  "_dayOfMonthOrdinalParse": {},
+  "_dayOfMonthOrdinalParseLenient": {},
+  "_invalidDate": "tenpo nasin ike",
+  "_longDateFormat": {
+    "L": "YYYY-MM-DD",
+    "LL": "D MMMM YYYY",
+    "LLL": "D MMMM YYYY HH:mm",
+    "LLLL": "dddd, D MMMM YYYY HH:mm",
+    "LT": "HH:mm",
+    "LTS": "HH:mm:ss"
+  },
+  "_meridiemParse": {},
+  "_months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "_monthsShort": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "_relativeTime": {
+    "M": "tenpo mun",
+    "MM": "tenpo mun %d",
+    "d": "tenpo suno",
+    "dd": "tenpo suno %d",
+    "future": "lon kama pi %s",
+    "h": "tenpo ilo wan",
+    "hh": "tenpo ilo %d",
+    "m": "tenpo ilo lili wan",
+    "mm": "tenpo ilo %d",
+    "past": "lon %s pini",
+    "s": "tenpo ilo lili",
+    "ss": "tenpo ilo lili %d",
+    "y": "tenpo sike",
+    "yy": "tenpo sike %d"
+  },
+  "_week": {
+    "dow": 1,
+    "doy": 4
+  },
+  "_weekdays": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "_weekdaysMin": [
+    "Su",
+    "Mo",
+    "Tu",
+    "We",
+    "Th",
+    "Fr",
+    "Sa"
+  ],
+  "_weekdaysShort": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ]
 }

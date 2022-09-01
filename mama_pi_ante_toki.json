@@ -1170,6 +1170,7 @@
   "STOP_RINGING": "Stop Ringing",
   "STOP_STREAMING": "Stop Streaming",
   "STOP_WATCHING": "Stop Watching",
+  "STREAMER_MODE": "Streamer Mode",
   "STREAM_ENDED": "This stream has ended. *cricket noise*",
   "STREAM_PLAYING": "Playing !!{game}!!",
   "STREAM_PRESET_CUSTOM": "Custom",

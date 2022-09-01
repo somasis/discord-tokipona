@@ -1173,6 +1173,7 @@
   "STOP_RINGING": "o pini e kalama",
   "STOP_STREAMING": "o pini e sitelen tawa",
   "STOP_WATCHING": "o pini e lukin",
+  "STREAMER_MODE": "nasin pi jan sitelen",
   "STREAM_ENDED": "sitelen tawa ni li pini. *kalama pipi*",
   "STREAM_PLAYING": "li lon musi !!{game}!!",
   "STREAM_PRESET_CUSTOM": "wile",

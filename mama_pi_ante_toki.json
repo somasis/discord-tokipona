@@ -1487,6 +1487,7 @@
   "WELCOME_SCREEN_CHOICE_HEADER": "Top things to do here",
   "WELCOME_SCREEN_SKIP": "I'll just look around for now",
   "WELCOME_SCREEN_TITLE": "Welcome to $[!!{guildName}!!](guildNameHook)",
+  "WHATS_NEW": "What's New",
   "WIDGET": "Widget",
   "WINDOWS": "Windows",
   "WORKING": "Working...",

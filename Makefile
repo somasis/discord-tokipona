@@ -10,7 +10,7 @@ noop: FRC
 	    "[if you're a developer, use \"make dev\".]" \
 	    >&2
 
-manifest.json: index.js manifest.sh i18n/index.js i18n/timestamps.json i18n/tok.json
+manifest.json: manifest.sh index.js i18n/index.js i18n/timestamps.json i18n/tok.json
 	./manifest.sh > manifest.json
 
 dev: FRC manifest.json toki_mama_ale.json nimi_taso_lon_toki_ale.txt mama_pi_ante_toki.json mute

@@ -1,13 +1,8 @@
 #!/bin/sh
 
-# Generate manifest using a version based on commit count
+# Generate manifest using a version based on time.
 
-version=$(git rev-list --count HEAD -- index.js i18n)
-
-# if worktree state is dirty, add one so it's the same after committing
-if git diff-files --quiet; then
-    version=$((version + 1))
-fi
+version=$(TZ=UTC date +%Y%m%d.%H%M%S)
 
 jq -n \
     --arg name "toki pona" \

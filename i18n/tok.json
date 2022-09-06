@@ -582,7 +582,7 @@
   "GUILD_SETTINGS_EMOJI_ALIAS": "nimi",
   "GUILD_SETTINGS_EMOJI_UPLOAD_TO_SERVER_MESSAGE": "sina ken pana e mute {count} pi sitelen lili. jan lon li ken kepeken sitelen lili ni lon ma ni. jan pi nasin Nito li ken kepeken sitelen tawa lili. nimi pi sitelen lili li wile suli e nimi lili tu. nimi ni li ken taso jo e sitelen lili, e sitelen lili nanpa e sitelen lili \"_\". sitelen lili li ken ala suli e mute KB {maxSize}.",
   "GUILD_SETTINGS_EXAMPLE_TOOLTIP": "ijo ni li sama!",
-  "GUILD_SETTINGS_ICON_RECOMMEND": "ma la mi wile sitelen pi mute sewi 512x512.",
+  "GUILD_SETTINGS_ICON_RECOMMEND": "ma la mi wile sitelen pi mute suli 512x512.",
   "GUILD_SETTINGS_LABEL_AUDIT_LOG": "lipu pi pali lawa",
   "GUILD_SETTINGS_MEMBER_VERIFICATION": "awen pi jan pona taso",
   "GUILD_SETTINGS_MEMBER_VERIFICATION_DESCRIPTION": "o lon e lawa ma la, jan sin li wile toki lon ma, li wile pana e sitelen pilin, li wile toki tawa jan pi ma ni la, jan sin li wile kama sona e lawa ni. sina pana e poki jan tawa jan sin ni la, jan sin li wile ala pali e ni.",

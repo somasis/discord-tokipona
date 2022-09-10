@@ -538,7 +538,7 @@
   "GUILD_EVENT_DETAILS_INFO_TAB_TITLE": "sona tenpo",
   "GUILD_EVENT_DETAILS_USER_LIST_TAB_TITLE": "jan wile {userCount, plural, =0 {ala} =1 {wan} =2 {tu} other {{userCount}}}",
   "GUILD_EVENT_IMAGE": "len tenpo",
-  "GUILD_EVENT_INTERESTED_COUNT": "jan {count, plural, =0 {ala} =1 {wan} =2 {tu} other {count}} li wile",
+  "GUILD_EVENT_INTERESTED_COUNT": "jan {count, plural, =0 {ala} =1 {wan} =2 {tu} other {{count}}} li wile",
   "GUILD_EVENT_INVITE_MODAL_FOOTER": "anu la o pana e linja pi lipu kama tawa jan pona sina",
   "GUILD_EVENT_INVITE_MODAL_TITLE": "o kama e jan pona lon tenpo kulupu",
   "GUILD_EVENT_JOIN": "o kama lon",

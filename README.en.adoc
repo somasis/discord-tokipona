@@ -1,11 +1,11 @@
 = discord-tokipona
 
-:lang:              en-US
-:url-replugged:     https://github.com/replugged-org/replugged
-:url-install:       https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
-:url-datamining:    https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
-:url-sil:           https://iso639-3.sil.org/request/2021-043
-:url-mapali:        https://discord.gg/PrVVDEDanU
+:lang: en-US
+:url-replugged: https://github.com/replugged-org/replugged
+:url-install: https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
+:url-datamining: https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
+:url-sil: https://iso639-3.sil.org/request/2021-043
+:url-mapali: https://discord.gg/PrVVDEDanU
 
 xref:README.adoc[o lukin e lipu ni lon toki pona].
 

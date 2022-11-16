@@ -1,6 +1,7 @@
 = discord-tokipona
 
 :lang: en-US
+:url-replugged-broken: https://github.com/replugged-org/replugged/issues/205
 :url-replugged: https://github.com/replugged-org/replugged
 :url-install: https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
 :url-datamining: https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
@@ -8,6 +9,15 @@
 :url-mapali: https://discord.gg/PrVVDEDanU
 
 xref:README.adoc[o lukin e lipu ni lon toki pona].
+
+== Currently broken
+
+**This plugin will not work right now!**
+The fault is not with discord-tokipona, but is due to changes that have broken {url-replugged-broken}[Replugged].
+Replugged's developers are working towards fixing it.
+The plugin should function again once Replugged is fixed.
+
+'''
 
 A work-in-progress {url-replugged}[Replugged] plugin to translate Discord into Toki Pona.
 

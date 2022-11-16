@@ -1,6 +1,7 @@
 = sin ilo discord-tokipona
 
 :lang: tok
+:url-replugged-broken: https://github.com/replugged-org/replugged/issues/205
 :url-replugged: https://github.com/replugged-org/replugged
 :url-install: https://replugged.dev/install?url=https://github.com/somasis/discord-tokipona
 :url-datamining: https://github.com/Discord-Datamining/Discord-Datamining/blob/master/current.js
@@ -8,6 +9,15 @@
 :url-mapali: https://discord.gg/PrVVDEDanU
 
 xref:README.en.adoc[There's an English version of this README].
+
+== pakala suli
+
+**sin ilo ni li pakala a!** taso, pakala li lon sin ilo ala.
+pakala li tan {url-replugged-broken}[ilo Wipo].
+jan pali pi ilo Wipo li pali mute lon kama pona tawa ilo.
+o awen la ilo li ken kama pona sin.
+
+'''
 
 ni li namako tawa namako {url-replugged}[ilo Wipo] (nimi Replugged lon toki Inli).
 namako ni li pana e toki pona tawa ilo Siko (nimi Discord lon toki Inli).
